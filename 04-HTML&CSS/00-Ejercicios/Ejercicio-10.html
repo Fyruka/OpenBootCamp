@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones</title>
+    <style>
+        .padre {
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+        }
+
+        .hijo {
+            width: 50%;
+            height: 50%;
+            background-color: bisque;
+        }
+
+        .padre:hover .hijo {
+            animation: translacion 4s forwards;
+        }
+
+        @keyframes translacion {
+            0% {
+                background-color: bisque;
+                transform: translateX(0%) translateY(0%);
+            }
+            25% {
+                transform: translateX(100%) translateY(0%);
+            }
+            50% {
+                transform: translateX(100%) translateY(100%);
+            }
+            75% {
+                transform: translateX(0%) translateY(100%);
+            }
+            100% {
+                background-color: orangered;
+                transform: translateX(0%) translateY(0%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo"></div>
+    </div>
+</body>
+</html>
