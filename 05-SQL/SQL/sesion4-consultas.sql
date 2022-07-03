@@ -53,6 +53,9 @@ SELECT * FROM actor;
 SELECT last_name, count(last_name) from actor group by last_name;
 SELECT last_name, count(last_name) from actor group by last_name HAVING count(last_name) > 1;
 
+
+
+
 -- obtener en cuantas películas actúa cada actor:
 select * from film_actor;
 select * from film;
@@ -80,32 +83,6 @@ GROUP BY title ORDER BY unidades;
 select f.title, count(i.inventory_id) as unidades from film f
 inner join inventory i on i.film_id = f.film_id
 GROUP BY title ORDER BY unidades DESC;
-
-/*
- SUM()
- */
- select * from customer;
-  select * from payment;
-
-SELECT * FROM payment p
-inner join customer c on p.customer_id = c.customer_id
-
-SELECT c.email, count(p.payment_id) as num_pagos FROM payment p
-inner join customer c on p.customer_id = c.customer_id
-group by c.email
-
-SELECT c.email, sum(p.amount) as num_pagos FROM payment p
-inner join customer c on p.customer_id = c.customer_id
-group by c.email
-
-select * from staff;
-
-select * from payment p
-inner join staff s on p.staff_id = s.staff_id
-
-select s.first_name, count(p.payment_id) as num_ventas, sum(p.amount) cantidad_ventas from payment p
-inner join staff s on p.staff_id = s.staff_id
-group by s.first_name
 
 
 -- joins
@@ -146,7 +123,6 @@ INNER JOIN address a ON cu.address_id = a.address_id
 INNER JOIN city ci ON a.city_id = ci.city_id
 INNER JOIN country co ON ci.country_id = co.country_id
 
-
 /*
  Función concat()
 */
@@ -157,6 +133,7 @@ select first_name, last_name from actor;
 select concat(first_name, ' ', last_name) from actor;
 
 select concat(first_name, ' ', last_name) as full_name from actor;
+
 
 /*
  LIKE
@@ -187,7 +164,7 @@ select * from country where country = 'Spain' or country = 'Germany' or country 
 
 SELECT * FROM country WHERE country IN('Spain', 'Germany', 'France', 'Mexico');
 
-select * from customer;
+SELECT * from customer;
 
 SELECT * FROM customer WHERE customer_id = 15;
 
@@ -289,3 +266,29 @@ group by m.name
 -- extra vendido
 
 -- ventas agrupando por año, mes, dia
+
+/*
+ SUM()
+ */
+ SELECT * FROM customer;
+ SELECT * FROM payment;
+
+SELECT * FROM payment p
+INNER JOIN customer c ON p.customer_id = c.customer_id
+
+SELECT c.email, count(p.payment_id) AS num_pagos FROM payment p
+INNER JOIN customer c ON p.customer_id = c.customer_id
+GROUP BY c.email
+
+SELECT c.email, sum(p.amount) AS num_pagos FROM payment p
+INNER JOIN customer c ON p.customer_id = c.customer_id
+GROUP BY c.email
+
+SELECT * FROM staff;
+
+SELECT * FROM payment p
+INNER JOIN staff s ON p.staff_id = s.staff_id
+
+SELECT s.first_name, count(p.payment_id) AS num_ventas, sum(p.amount) cantidad_ventas FROM payment p
+INNER JOIN staff s ON p.staff_id = s.staff_id
+GROUP BY s.first_name
