@@ -1,0 +1,45 @@
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.exe
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.deps.json
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.runtimeconfig.json
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.dll
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.pdb
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.csproj.AssemblyReference.cache
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.GeneratedMSBuildEditorConfig.editorconfig
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.AssemblyInfoInputs.cache
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.AssemblyInfo.cs
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.csproj.CoreCompileInputs.cache
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.dll
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/refint/01 - Hello World.dll
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.pdb
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.genruntimeconfig.cache
+G:/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/ref/01 - Hello World.dll
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.deps.json
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.runtimeconfig.json
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.dll
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/bin/Debug/net6.0/01 - Hello World.pdb
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.csproj.AssemblyReference.cache
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.AssemblyInfoInputs.cache
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.AssemblyInfo.cs
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.csproj.CoreCompileInputs.cache
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.dll
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/refint/01 - Hello World.dll
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.pdb
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/01 - Hello World.genruntimeconfig.cache
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01 - Hello World/obj/Debug/net6.0/ref/01 - Hello World.dll
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/bin/Debug/net6.0/01 - Hello World
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/bin/Debug/net6.0/01 - Hello World.deps.json
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/bin/Debug/net6.0/01 - Hello World.runtimeconfig.json
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/bin/Debug/net6.0/01 - Hello World.dll
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/bin/Debug/net6.0/01 - Hello World.pdb
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/01 - Hello World.csproj.AssemblyReference.cache
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/01 - Hello World.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/01 - Hello World.AssemblyInfoInputs.cache
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/01 - Hello World.AssemblyInfo.cs
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/01 - Hello World.csproj.CoreCompileInputs.cache
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/01 - Hello World.dll
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/refint/01 - Hello World.dll
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/01 - Hello World.pdb
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/01 - Hello World.genruntimeconfig.cache
+/mnt/g/OpenBootCamp/06-C#/Proyectos/01-HelloWorld/obj/Debug/net6.0/ref/01 - Hello World.dll
