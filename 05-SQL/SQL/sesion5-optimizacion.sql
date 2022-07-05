@@ -197,6 +197,10 @@ create index idx_example_pk on example(id);
 
 EXPLAIN ANALYZE select * from example WHERE id = 456777;
 
+create index idx_order_details_unit_price on order_details(unit_price) where unit_price < 10;
+
+
+
 
 /*
 Particionamiento de tablas
