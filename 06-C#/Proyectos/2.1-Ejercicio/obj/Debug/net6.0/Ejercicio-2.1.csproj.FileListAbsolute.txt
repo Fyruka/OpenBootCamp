@@ -1,0 +1,15 @@
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\Ejercicio-2.1.csproj.AssemblyReference.cache
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\Ejercicio-2.1.GeneratedMSBuildEditorConfig.editorconfig
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\Ejercicio-2.1.AssemblyInfoInputs.cache
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\Ejercicio-2.1.AssemblyInfo.cs
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\Ejercicio-2.1.csproj.CoreCompileInputs.cache
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\bin\Debug\net6.0\Ejercicio-2.1.exe
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\bin\Debug\net6.0\Ejercicio-2.1.deps.json
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\bin\Debug\net6.0\Ejercicio-2.1.runtimeconfig.json
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\bin\Debug\net6.0\Ejercicio-2.1.dll
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\bin\Debug\net6.0\Ejercicio-2.1.pdb
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\Ejercicio-2.1.dll
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\refint\Ejercicio-2.1.dll
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\Ejercicio-2.1.pdb
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\Ejercicio-2.1.genruntimeconfig.cache
+G:\OpenBootCamp\06-C#\Proyectos\Ejercicio-2.1\obj\Debug\net6.0\ref\Ejercicio-2.1.dll
