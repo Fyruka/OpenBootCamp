@@ -26,20 +26,6 @@ bool condicion = (numCon1 >= 10 && numCon2 >= 30);
 bool condicion2 = (numCon2 >= 10 || numCon2 >= 50);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Console.WriteLine("Es mayor? " + mayor);
 Console.WriteLine("Es un char? " + isa);
 Console.WriteLine("La condicion es: " + condicion);
