@@ -1,5 +1,5 @@
 # GIT
-
+ 
 1. De las siguientes ¿Cual no es cierta? (4)
    1. Git por defecto ofrece una rama "master"
    2. Las operaciones "clone" de Git crean una instancia del repositorio
