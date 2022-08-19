@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "4HVyJKAy9NbLwXhJeo0blS1CIsCde+C0BHQW+OJcqf6Z3QLBFbWTo+8RhBaB+rmrbD1f0ML3pxIaMcyabtJpMA==",
+  "success": true,
+  "projectFilePath": "G:\\OpenBootCamp\\07-DotNET\\Proyectos\\Practicas\\1.1-myFirstBackend\\1.1-myFirstBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scarr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\scarr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\scarr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\scarr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\scarr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\scarr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

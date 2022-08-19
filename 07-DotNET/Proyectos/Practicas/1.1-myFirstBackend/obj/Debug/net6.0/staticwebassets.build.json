@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "m/D2xS1liIiHhXgCKvs+xFiNwsVcbXcN0lOEw+6UXAU=",
+  "Source": "1.1-myFirstBackend",
+  "BasePath": "_content/1.1-myFirstBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
