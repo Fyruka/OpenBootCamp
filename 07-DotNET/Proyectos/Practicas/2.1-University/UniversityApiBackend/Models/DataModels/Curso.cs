@@ -4,7 +4,7 @@ namespace UniversityApiBackend.Models.DataModels
 {
     public class Curso
     {
-        [Required, MaxLength(100)]
+        [Required, MaxLength(20)]
         public string Name { get; set; } = string.Empty;
         [MaxLength(280)]
         public string ShortDescription { get; set; } = string.Empty;
