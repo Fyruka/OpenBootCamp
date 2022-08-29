@@ -14,5 +14,7 @@ namespace UniversityApiBackend.Models.DataModels
         public string DeletedBy { get; set; } = string.Empty;
         public DateTime? DeletedAt { get; set; }
         public bool IsDeleted { get; set; }
+
+        public ICollection<User> Users { get; set; } = new List<User>();
     }
 }
