@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace LinqSnippets
@@ -140,8 +141,7 @@ namespace LinqSnippets
                             Name="Juanjo",
                             Email="Juanjo@clases.com",
                             Salary=4000
-                        },
-
+                        }
                     }
                 },
                 new Enterprise()
@@ -170,8 +170,7 @@ namespace LinqSnippets
                             Name="Marta",
                             Email="Marta@clases.com",
                             Salary=6000
-                        },
-
+                        }
                     }
                 }
             };
@@ -262,5 +261,287 @@ namespace LinqSnippets
         }
 
 
+        // Paging - El paging es la posibilidad de colocar 10 elementos de una busqueda en la pagina 1, los 10 siguientes en la pagina 2, y asi sucesivamente.
+        public IEnumerable<T> GetPage<T>(IEnumerable<T> collection, int pageNumber, int resultsPerPage)
+        {
+            int startIndex = (pageNumber - 1) * resultsPerPage;
+            return collection.Skip(startIndex).Take(resultsPerPage);
+        }
+
+        // LinQ variables
+        static public void LinqVariables()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            var aboveAverage = from number in numbers
+                               let average = numbers.Average()
+                               let nSquare = Math.Pow(number, 2)
+                               where nSquare > average
+                               select number;
+
+            Console.WriteLine($"Average: {numbers.Average()}");
+            foreach (int number in aboveAverage)
+            {
+                Console.WriteLine($"Query: Number: {number} Square: {Math.Pow(number, 2)}");
+            }
+        }
+
+        // ZIP - Es una cremallera entre dos listas, coe el valor 1 de la lista 1, valor 1 de la lista 2, valor 2 de la lista 1, valor 2 de la lista 2, y asi sucesibamente. 
+        static public void ZipLinq()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            string[] stringNumbers = { "one", "two", "three", "four", "five" };
+
+            IEnumerable<string> zipNumbers = numbers.Zip(stringNumbers, (number, word) => $"{number} = {word}");
+            // { "1=one", "2=two", ... } 
+        }
+
+        // Repear & Range - Range y repeat son metodos que tienen los Enumerables que se pueden utilizar dentro de LinQ. Se utilizan para generar secuencias simples. 
+        static public void repeatRangeLinq()
+        {
+            // Generate collection from 1 - 1000
+            var first1000 = Enumerable.Range(1, 1000);
+
+            // Repear a value N times
+            IEnumerable<string> fiveXs = Enumerable.Repeat("X", 5); // { "X", "X", "X", "X", "X" }
+        }
+
+        static public void studentsLinq()
+        {
+            var classRoom = new[]
+            {
+                new Student
+                {
+                    Id = 1,
+                    Name = "Samuel",
+                    Grade = 90,
+                    Certified = true,
+                },
+                new Student
+                {
+                    Id = 2,
+                    Name = "Juan",
+                    Grade = 40,
+                    Certified = false,
+                },
+                new Student
+                {
+                    Id = 3,
+                    Name = "Ana",
+                    Grade = 96,
+                    Certified = true,
+                },
+                new Student
+                {
+                    Id = 4,
+                    Name = "Antonio",
+                    Grade = 10,
+                    Certified = false,
+                },
+                new Student
+                {
+                    Id = 5,
+                    Name = "Fermin",
+                    Grade = 50,
+                    Certified = true,
+                },
+            };
+
+            var certifiedStudents = from student in classRoom
+                                    where student.Certified
+                                    select student;
+
+            var notCertifiedStudent = from student in classRoom
+                                      where student.Certified == false
+                                      select student;
+
+            var approvedStudentsName = from student in classRoom
+                                       where student.Grade >= 50 && student.Certified == true
+                                       select student.Name;
+        }
+
+        // ALL - En este caso analiza TODOS los campos y nos da la respuesta, en diferencia al ANY que es cualquiera, ALL es todos. 
+        static public void allLinq()
+        {
+            var numbers = new List<int>() { 1, 2, 3, 4, 5, 6 };
+            bool allAreSmallerThan10 = numbers.All(x => x < 10); // true
+            bool allAreBiggerOrEqualThan2 = numbers.All(x => x >= 2); // False
+
+            var emptyList = new List<int>();
+            bool allNumbersAreGreaterThan0 = emptyList.All(x => x >= 0); // true - ALL lo que hace es parar la iteracion por cada uno de los valores en cuanto encuentra un elemento que no cumple la especificacion que le estamos especificando.
+                                                                         //            En este caso no llega a iterar porque esta vacia, y da un falso positivo.  
+        }
+
+        // Aggregate - Un agregado es una secuencia acumulativa de funciones, una detras de otra. Realizar operaciones cuya previa salida es la entrada de la siguiente funcion. 
+        static public void aggregateQueries()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            // Summ all numbers
+            int sum = numbers.Aggregate((prevSum, current) => prevSum + current); // 55
+
+            // 0, 1 => 1
+            // 1, 2 => 3
+            // 3, 3 => 6
+            // 6, 4 => 10
+            // etc.
+
+            string[] words = { "hello, ", "my ", "name ", "is ", "Samuel" };
+            string greeting = words.Aggregate((prevGreeting, current) => prevGreeting + current); // hello, my name is Samuel
+
+            // "" + "hello, " = hello,
+            // "hello, " + "my " = hello, my
+            // "hello, my" + "name " = hello, my name
+            // etc.
+        }
+
+        //Distinct - Nos permite crear una lista IEnum a partir de otra lista donde los valores repetidos se ignoran.
+        static public void distincValues()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 5, 4, 3, 2, 1 };
+
+            IEnumerable<int> distinctValues = numbers.Distinct(); 
+        }
+
+        // GroupBy - Nos permite hacer agrupaciones por algun tipo de condicion, pares o impares por ejemplo. 
+        public static void groupByExamples()
+        {
+            List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            // Obtain only even numbers and generate two groups
+            var grouped = numbers.GroupBy(x => x % 2 == 0);
+
+            // We will have two groups:
+            // 1. The group that doesn't fit the condition (odd numbers)
+            // 2. The group that fits the condition (even numbers)
+
+            foreach (var group in grouped)
+            {
+                foreach (var value in group)
+                {
+                    Console.WriteLine(value); // 1,3,5,7,9 ... 2,4,6,8 (first the odds and then the even
+                }
+            }
+
+            // Another Example
+            var classRoom = new[]
+            {
+                new Student
+                {
+                    Id = 1,
+                    Name = "Samuel",
+                    Grade = 90,
+                    Certified = true
+                },
+                new Student
+                {
+                    Id = 2,
+                    Name = "Juan",
+                    Grade = 40,
+                    Certified = false
+                },
+                new Student
+                {
+                    Id = 3,
+                    Name = "Ana",
+                    Grade = 96,
+                    Certified = true
+                },
+                new Student
+                {
+                    Id = 4,
+                    Name = "Antonio",
+                    Grade = 10,
+                    Certified = false
+                },
+                new Student
+                {
+                    Id = 5,
+                    Name = "Fermin",
+                    Grade = 50,
+                    Certified = true
+                }
+            };
+
+            var certifiedQuery = classRoom.GroupBy(student => student.Certified);
+
+            // We obtain two groups
+            // 1. Not certified students
+            // 2. Certified students
+
+            foreach (var group in certifiedQuery)
+            {
+                Console.WriteLine($"---------- { group.Key } ----------");
+                foreach (var student in group)
+                {
+                    Console.WriteLine(student.Name); 
+                }
+            }
+        }
+
+        // Relation LinQ
+        static public void relationsLinq()
+        {
+            List<Post> posts = new List<Post>()
+            {
+                new Post()
+                {
+                    Id = 1,
+                    Title = "My First Post",
+                    Content = "My first Content:",
+                    Created = DateTime.Now,
+                    Comments = new List<Comment>()
+                    {
+                        new Comment()
+                        {
+                            Id = 1,
+                            Created = DateTime.Now,
+                            Title = "My first Comment",
+                            Content = "My content"
+
+                        },
+                        new Comment()
+                        {
+                            Id = 2,
+                            Created = DateTime.Now,
+                            Title = "My second Comment",
+                            Content = "My other content"
+
+                        }
+                    }
+                },
+                new Post()
+                {
+                    Id = 2,
+                    Title = "My second Post",
+                    Content = "My second Content:",
+                    Created = DateTime.Now,
+                    Comments = new List<Comment>()
+                    {
+                        new Comment()
+                        {
+                            Id = 3,
+                            Created = DateTime.Now,
+                            Title = "My other Comment",
+                            Content = "My content"
+
+                        },
+                        new Comment()
+                        {
+                            Id = 4,
+                            Created = DateTime.Now,
+                            Title = "My other of other Comment",
+                            Content = "My other content"
+
+                        }
+                    }
+                }
+            };
+
+            // Get all comments of a post
+            var commentsContent = posts.SelectMany(
+                post => post.Comments, 
+                (post, comment) => new { PostId = post.Id, CommentContent = comment.Content });
+        }
     }
 }
