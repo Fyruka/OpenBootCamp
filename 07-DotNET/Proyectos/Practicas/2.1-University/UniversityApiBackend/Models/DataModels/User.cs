@@ -16,6 +16,6 @@ namespace UniversityApiBackend.Models.DataModels
         [Required]
         public string Password { get; set; } = string.Empty;
 
-        //public ICollection<Id> Ids { get; set; } = new List<Id>();
+        
     }
 }

@@ -35,7 +35,7 @@ namespace UniversityApiBackend.Models
         {
             var Courses = new List<Course>();
 
-            var oneStudentCourseList = from course in Courses where course.Level == courseLevelToSearch where course.Students.Any() select course;
+            var oneStudentCourseList = from course in Courses where course.Level == courseLevelToSearch && course.Students.Any() select course;
         }
 
         // Buscar cursos de un nivel determinado que sean de una categoría determinada
@@ -43,7 +43,7 @@ namespace UniversityApiBackend.Models
         {
             var Courses = new List<Course>();
 
-            var courseFromLevelAndCategoryList = from course in Courses where course.Level == levelToSearch where course.Categories == categoryToSearch select course;
+            var courseFromLevelAndCategoryList = from course in Courses where course.Level == levelToSearch && course.Categories == categoryToSearch select course;
         }
 
         // Buscar cursos sin alumnos

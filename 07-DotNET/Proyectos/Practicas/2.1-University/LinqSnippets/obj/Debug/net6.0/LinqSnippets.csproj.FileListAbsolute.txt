@@ -1,0 +1,12 @@
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\bin\Debug\net6.0\LinqSnippets.deps.json
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\bin\Debug\net6.0\LinqSnippets.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\bin\Debug\net6.0\LinqSnippets.pdb
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\LinqSnippets.csproj.AssemblyReference.cache
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\LinqSnippets.GeneratedMSBuildEditorConfig.editorconfig
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\LinqSnippets.AssemblyInfoInputs.cache
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\LinqSnippets.AssemblyInfo.cs
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\LinqSnippets.csproj.CoreCompileInputs.cache
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\LinqSnippets.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\refint\LinqSnippets.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\LinqSnippets.pdb
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\LinqSnippets\obj\Debug\net6.0\ref\LinqSnippets.dll

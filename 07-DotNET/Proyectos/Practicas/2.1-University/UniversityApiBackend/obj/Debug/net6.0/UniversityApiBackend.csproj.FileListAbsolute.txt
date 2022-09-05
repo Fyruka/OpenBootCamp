@@ -259,3 +259,12 @@ G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBacken
 G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\UniversityApiBackend.pdb
 G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\UniversityApiBackend.genruntimeconfig.cache
 G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\ref\UniversityApiBackend.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\en-US\UniversityApiBackend.resources.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\UniversityApiBackend.Resources.Controllers.AccountController.en-US.resources
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\UniversityApiBackend.csproj.GenerateResource.cache
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\en-US\UniversityApiBackend.resources.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\es-ES\UniversityApiBackend.resources.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\UniversityApiBackend.Resources.Controllers.AccountController.es-ES.resources
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\es-ES\UniversityApiBackend.resources.dll
