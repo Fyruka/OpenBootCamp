@@ -1,0 +1,38 @@
+2022-09-07 14:08:14.501 +02:00 [INF] HTTP GET /WeatherForecast responded 401 in 340.0343 ms
+2022-09-07 14:08:45.771 +02:00 [INF] HTTP POST /api/Account/GetToken/AccountControllerResource responded 200 in 2590.9397 ms
+2022-09-07 14:09:00.137 +02:00 [VRB] WeatherForecastController - Get - Trace Level Log
+2022-09-07 14:09:00.143 +02:00 [DBG] WeatherForecastController - Get - Debug Level Log
+2022-09-07 14:09:00.145 +02:00 [INF] WeatherForecastController - Get - Information Level Log
+2022-09-07 14:09:00.148 +02:00 [WRN] WeatherForecastController - Get - Warning Level Log
+2022-09-07 14:09:00.150 +02:00 [ERR] WeatherForecastController - Get - Error Level Log
+2022-09-07 14:09:00.152 +02:00 [FTL] WeatherForecastController - Get - Critical Level Log
+2022-09-07 14:09:00.160 +02:00 [INF] HTTP GET /WeatherForecast responded 200 in 87.1181 ms
+2022-09-07 16:52:46.074 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-09-07 16:52:46.115 +02:00 [INF] warn: 9/7/2022 16:52:46.113 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-09-07 16:52:46.308 +02:00 [INF] info: 9/7/2022 16:52:46.308 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.8 initialized 'UniversityDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+2022-09-07 16:52:46.955 +02:00 [INF] info: 9/7/2022 16:52:46.955 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (47ms) [Parameters=[@__userLogin_UserName_0='string' (Size = 50), @__userLogin_Password_1='string' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [u].[Id], [u].[CategoryId], [u].[ChapterId], [u].[CourseId], [u].[CreatedAt], [u].[CreatedBy], [u].[DeletedAt], [u].[DeletedBy], [u].[Email], [u].[IsDeleted], [u].[LastName], [u].[Name], [u].[Password], [u].[StudentId], [u].[UpdatedAt], [u].[UpdatedBy], [u].[UserId]
+      FROM [Users] AS [u]
+      WHERE ([u].[Name] = @__userLogin_UserName_0) AND ([u].[Password] = @__userLogin_Password_1)
+2022-09-07 16:52:46.981 +02:00 [INF] HTTP POST /api/Account/GetToken/AccountControllerResource responded 400 in 1670.0429 ms
+2022-09-07 16:52:55.860 +02:00 [INF] info: 9/7/2022 16:52:55.860 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.8 initialized 'UniversityDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+2022-09-07 16:52:55.872 +02:00 [INF] info: 9/7/2022 16:52:55.872 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (5ms) [Parameters=[@__userLogin_UserName_0='string' (Size = 50), @__userLogin_Password_1='string' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [u].[Id], [u].[CategoryId], [u].[ChapterId], [u].[CourseId], [u].[CreatedAt], [u].[CreatedBy], [u].[DeletedAt], [u].[DeletedBy], [u].[Email], [u].[IsDeleted], [u].[LastName], [u].[Name], [u].[Password], [u].[StudentId], [u].[UpdatedAt], [u].[UpdatedBy], [u].[UserId]
+      FROM [Users] AS [u]
+      WHERE ([u].[Name] = @__userLogin_UserName_0) AND ([u].[Password] = @__userLogin_Password_1)
+2022-09-07 16:52:55.875 +02:00 [INF] HTTP POST /api/Account/GetToken/AccountControllerResource responded 400 in 22.8434 ms
+2022-09-07 16:52:57.018 +02:00 [INF] info: 9/7/2022 16:52:57.018 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.8 initialized 'UniversityDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.8' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+2022-09-07 16:52:57.022 +02:00 [INF] info: 9/7/2022 16:52:57.022 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[@__userLogin_UserName_0='string' (Size = 50), @__userLogin_Password_1='string' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [u].[Id], [u].[CategoryId], [u].[ChapterId], [u].[CourseId], [u].[CreatedAt], [u].[CreatedBy], [u].[DeletedAt], [u].[DeletedBy], [u].[Email], [u].[IsDeleted], [u].[LastName], [u].[Name], [u].[Password], [u].[StudentId], [u].[UpdatedAt], [u].[UpdatedBy], [u].[UserId]
+      FROM [Users] AS [u]
+      WHERE ([u].[Name] = @__userLogin_UserName_0) AND ([u].[Password] = @__userLogin_Password_1)
+2022-09-07 16:52:57.026 +02:00 [INF] HTTP POST /api/Account/GetToken/AccountControllerResource responded 400 in 42.8552 ms
+2022-09-07 16:53:01.762 +02:00 [INF] HTTP POST /api/Account/GetToken/AccountControllerResource responded 400 in 6.9126 ms
+2022-09-07 17:00:25.571 +02:00 [INF] HTTP POST /api/Account/GetToken/AccountControllerResource responded 400 in 199.9024 ms

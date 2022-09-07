@@ -24,12 +24,14 @@ namespace Ejercicio.Controllers.V2
         public async Task<IActionResult> GetProductDataAsync()
         {
             var response = await _httpClient.GetStreamAsync(ApiTestUrl);
+            
+            var productsData = await JsonSerializer.DeserializeAsync<List<ProductDataV2>>(response);
 
-            var productsData = await JsonSerializer.DeserializeAsync<ProductDataV2>(response);
+            foreach (var product in productsData) {
+                product.internalId = Guid.NewGuid();
+            };
 
-            var product = productsData.description;
-
-            return Ok(product);
+            return Ok(productsData);
         }
     }
 }

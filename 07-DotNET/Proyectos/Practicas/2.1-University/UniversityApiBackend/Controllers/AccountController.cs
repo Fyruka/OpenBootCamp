@@ -16,12 +16,14 @@ namespace UniversityApiBackend.Controllers
         private readonly UniversityDBContext _context; // Variable privada del contexto.
         private readonly JwtSettings _jwtSettings;
         private readonly IStringLocalizer<AccountController> _accountControllerLocalizer;
+        private readonly ILogger<AccountController> _logger;
 
-        public AccountController(UniversityDBContext context, JwtSettings jwtSettings, IStringLocalizer<AccountController> accountControllerLocalizer)
+        public AccountController(UniversityDBContext context, JwtSettings jwtSettings, IStringLocalizer<AccountController> accountControllerLocalizer, ILogger<AccountController> logger)
         {
             _context = context; // contexto de la aplicacion
             _jwtSettings = jwtSettings;
             _accountControllerLocalizer = accountControllerLocalizer;
+            _logger = logger;
         }
 
         //// Example users
@@ -94,6 +96,7 @@ namespace UniversityApiBackend.Controllers
             }catch (Exception ex)
             {
                 throw new Exception("GetToken Error", ex);
+                _logger.LogError($"{nameof(WeatherForecastController)} - {nameof(GetToken)} - Error Level Log");
             }
         }
 

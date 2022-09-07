@@ -268,3 +268,17 @@ G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBacken
 G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\es-ES\UniversityApiBackend.resources.dll
 G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\UniversityApiBackend.Resources.Controllers.AccountController.es-ES.resources
 G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\obj\Debug\net6.0\es-ES\UniversityApiBackend.resources.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Microsoft.Azure.Services.AppAuthentication.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.AspNetCore.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Sinks.File.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Sinks.MSSqlServer.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\2.1-University\UniversityApiBackend\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll

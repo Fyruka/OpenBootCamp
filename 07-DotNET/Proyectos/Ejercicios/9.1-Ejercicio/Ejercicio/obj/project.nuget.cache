@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vpCBrHrvIqaxc33WXwT1L9m4RYd8999bKkHbLeG5kLZiKY2swD7g2Eq3MEL6vzaAqaYPGBpwDl3pDRTw4M8cpg==",
+  "dgSpecHash": "AlPD86NoM1hr8s7ZjX4HWjDW1FMMOpet9hycl2NY70IWOOvKaHt8fY2O3Ck3jq1/9OcaeZ5amP5fKI/aMQhg3A==",
   "success": true,
   "projectFilePath": "G:\\OpenBootCamp\\07-DotNET\\Proyectos\\Ejercicios\\9.1-Ejercicio\\Ejercicio\\Ejercicio.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\scarr\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\scarr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\scarr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\scarr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\scarr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\scarr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\scarr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

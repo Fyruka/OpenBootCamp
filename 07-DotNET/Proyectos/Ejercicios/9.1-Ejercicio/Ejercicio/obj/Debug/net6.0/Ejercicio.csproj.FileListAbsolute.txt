@@ -27,3 +27,4 @@ G:\OpenBootCamp\07-DotNET\Proyectos\Ejercicios\9.1-Ejercicio\Ejercicio\obj\Debug
 G:\OpenBootCamp\07-DotNET\Proyectos\Ejercicios\9.1-Ejercicio\Ejercicio\obj\Debug\net6.0\Ejercicio.pdb
 G:\OpenBootCamp\07-DotNET\Proyectos\Ejercicios\9.1-Ejercicio\Ejercicio\obj\Debug\net6.0\Ejercicio.genruntimeconfig.cache
 G:\OpenBootCamp\07-DotNET\Proyectos\Ejercicios\9.1-Ejercicio\Ejercicio\obj\Debug\net6.0\ref\Ejercicio.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Ejercicios\9.1-Ejercicio\Ejercicio\bin\Debug\net6.0\Newtonsoft.Json.dll

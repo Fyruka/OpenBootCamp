@@ -22,11 +22,11 @@ namespace Ejercicio.Controllers.V1
         [HttpGet(Name = "GetProductData")]
         public async Task<IActionResult> GetProductDataAsync()
         {
-            var response = await _httpClient.GetStreamAsync(ApiTestUrl);
+            var products = await _httpClient.GetStreamAsync(ApiTestUrl);
 
-            var products = await JsonSerializer.DeserializeAsync<ProductData>(response);
+            var productsData = await JsonSerializer.DeserializeAsync<List<ProductData>>(products);
 
-            return Ok(response);
+            return Ok(productsData);
         }
     }
 }
