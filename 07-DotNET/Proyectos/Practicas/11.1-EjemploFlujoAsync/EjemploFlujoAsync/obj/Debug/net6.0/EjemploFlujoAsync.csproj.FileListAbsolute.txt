@@ -1,0 +1,15 @@
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\bin\Debug\net6.0\EjemploFlujoAsync.exe
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\bin\Debug\net6.0\EjemploFlujoAsync.deps.json
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\bin\Debug\net6.0\EjemploFlujoAsync.runtimeconfig.json
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\bin\Debug\net6.0\EjemploFlujoAsync.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\bin\Debug\net6.0\EjemploFlujoAsync.pdb
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\EjemploFlujoAsync.csproj.AssemblyReference.cache
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\EjemploFlujoAsync.GeneratedMSBuildEditorConfig.editorconfig
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\EjemploFlujoAsync.AssemblyInfoInputs.cache
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\EjemploFlujoAsync.AssemblyInfo.cs
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\EjemploFlujoAsync.csproj.CoreCompileInputs.cache
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\EjemploFlujoAsync.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\refint\EjemploFlujoAsync.dll
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\EjemploFlujoAsync.pdb
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\EjemploFlujoAsync.genruntimeconfig.cache
+G:\OpenBootCamp\07-DotNET\Proyectos\Practicas\11.1-EjemploFlujoAsync\EjemploFlujoAsync\obj\Debug\net6.0\ref\EjemploFlujoAsync.dll
